@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/rc/icon">
+        <file>Gp_icon.png</file>
+    </qresource>
+    <qresource prefix="/rc/license">
+        <file>LICENSE.txt</file>
+    </qresource>
+</RCC>

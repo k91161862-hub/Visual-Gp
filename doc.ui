@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>doc</class>
+ <widget class="QDialog" name="doc">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>965</width>
+    <height>646</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>45</pointsize>
+    <hintingpreference>PreferDefaultHinting</hintingpreference>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Справка Visual Gp</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/rc/icon/Gp_icon.png</normaloff>:/rc/icon/Gp_icon.png</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QPlainTextEdit" name="plainTextEdit">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+       <hintingpreference>PreferDefaultHinting</hintingpreference>
+      </font>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="plainText">
+      <string>Справочная информация:
+
+Визуальный Gp (VGp) ― это графический текстовый лёгкий редактор.
+Автор: Абдулаев Юсуф (13 лет)
+
+лицензия: GPLv3 (прочитайте файл LICENSE.txt или поищите в интернете)
+
+Отказ от ответственности: Программа предоставляется &quot;как есть&quot;. Автор не несёт ответственность за любые сбои, потерю данных и другие проблемы.
+
+Как пользоваться:
+1. Желательно поместить бинарный файл &quot;vgp&quot; в PATH (при желании)
+2. Писать свой текст
+3. CTRL + S для сохранения (запись)
+4. CTRL + Q для выхода
+Как открыть файл:
+при запуске через терминал передайте файл как первый аргумент:
+vgp имя
+
+Пример:
+vgp text.txt
+
+или перетащите файл на иконку бинарный файл vgp</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="exitOkButton">
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <hintingpreference>PreferDefaultHinting</hintingpreference>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>Ок</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
